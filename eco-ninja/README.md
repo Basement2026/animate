@@ -1,11 +1,10 @@
 # ECO-NINJA
 
-A single-file, animated website and browser game about picking up litter. Open `index.html` in any modern browser; there is nothing to build or install.
+A single-file animated website: a looping cartoon scene about four ninjas cleaning up litter. Open `index.html` in any modern browser; there is nothing to build or install.
 
-- **Hero:** a live demo of the game, played by a bot, behind the page title.
-- **Four ninjas:** Moss (Earth), Tide (Water), Ember (Fire) and Gale (Air), each with their own speed, reach, grit and special move. They are original characters, drawn in code.
-- **The game:** move left and right to catch falling rubbish, spare the wildlife, grab power-ups, and keep planet health above zero. Catch three of the same coloured ring in a row to multiply your score.
-- **Controls:** arrow keys or A/D, mouse or touch drag, Space for the special move, P to pause, M to mute.
-- **Sort it right** and **real-world missions** sections turn the game's lessons into everyday habits. Best score, chosen ninja, sound and pledges are saved in `localStorage`.
+- **The scene:** four acts (Bamboo Grove, River Bank, Sunny Beach, City Park), each lasting about 22 seconds. Litter rains down and piles up, the ninjas leap in and slice it out of the air, every piece flies into the bin of its own colour, then flowers, butterflies and birds return. Nothing is scored; it is a film, not a game.
+- **The ninjas:** Moss (Earth), Tide (Water), Ember (Fire) and Gale (Air), original characters drawn in code. Each fires a signature move during the clean-up: Root Shield, Tidal Sweep, Flame Dash and Whirlwind.
+- **Small controls:** choose which ninja the camera follows, jump to an act, pause (or press P), and trigger the followed ninja's special move.
+- Respects `prefers-reduced-motion`: the scene starts paused on a finished frame.
 
 Fonts (Dela Gothic One, Nunito) load from Google Fonts and fall back to system fonts offline. All art is drawn with the canvas API, so there are no image files.
